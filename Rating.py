@@ -1,0 +1,26 @@
+# module 2
+def strength(arg):
+    if arg==0:
+     return 8
+    elif arg==1:
+     return 9
+    elif arg==2:
+     return 8
+    elif arg==3:
+     return 8
+    elif arg==4:
+     return 7
+    elif arg==5:
+     return 6
+    elif arg==6:
+     return 7
+    elif arg==7:
+     return 9
+    elif arg==8:
+     return 8
+    elif arg==9:
+     return 7
+    elif arg==10:
+     return 8
+    elif arg==11:
+     return 8
