@@ -1,0 +1,47 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package java_training;
+
+/**
+ *
+ * @author Arshad
+ */
+public class cricketer{
+        private int age;
+        static int counter=0;
+        private String name;
+        private String team;
+        public cricketer(){
+            age=20;
+            name="John Doe";
+            team="Australia";
+            counter++;
+        }
+        public int getage(){
+            return age; 
+        }
+        public String getname(){
+            return name;
+        }
+        public String getteam(){
+            return team;
+        }
+        public void setage(int num){
+            age=num;
+        }
+        public void setname(String str){
+            name=str;
+        }
+        public void setteam(String str){
+            team=str;
+        }
+        public void display_attr(){
+            System.out.println(this.counter);
+            System.out.println(this.age);
+            System.out.println(this.name);
+            System.out.println(this.team);
+        }
+}
